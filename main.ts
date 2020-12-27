@@ -1,6 +1,6 @@
 input.onSound(DetectedSound.Loud, function () {
     clap += 1
-    soundExpression.mysterious.play()
+    soundExpression.happy.play()
 })
 let clap = 0
 input.setSoundThreshold(SoundThreshold.Loud, 150)
